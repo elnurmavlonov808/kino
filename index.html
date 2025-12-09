@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Uzmovi - Online Kino</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Asosiy Navbar -->
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark main-nav">
+    <div class="container-fluid">
+        <img src="https://uzmovi.tv/images/logo.gif" alt="Logo" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link nav-text active" href="#" data-section="home">BOSH SAHIFA</a></li>
+
+                <li class="nav-item dropdown">
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">KINOLAR</button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#" data-section="tarjima">Tarjima kinolar</a></li>
+                        <li><a class="dropdown-item" href="#" data-section="hind">Hind kinolar</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link nav-text" href="#" data-section="serial">SERIALLAR</a></li>
+
+               <li class="nav-item dropdown">
+    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">JANR</button>
+    <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#" data-genre="jangari">Jangari</a></li>
+        <li><a class="dropdown-item" href="#" data-genre="drama">Drama</a></li>
+        <li><a class="dropdown-item" href="#" data-genre="komediya">Komediya</a></li>
+        <li><a class="dropdown-item" href="#" data-genre="triller">Triller</a></li>
+        <li><a class="dropdown-item" href="#" data-genre="romantika">Romantika</a></li>
+        <li><a class="dropdown-item" href="#" data-genre="fantastika">Fantastika</a></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">YIL</button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">2025</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">MAMLAKAT</button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">AQSh</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link nav-text" href="#" data-section="news">KINO YANGILIKLARI</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   
+   <div class="image-row">
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-11-25/80x80_1764023606_ad265ec5455917865ded.jpg" alt="Image 1"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-11-25/80x80_1764023426_1295e35f408a4f5a0ece.jpg" alt="Image 2"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-11-25/80x80_1764023297_201c406499c4e401c778.jpg" alt="Image 3"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-10-28/80x80_1761648919_48d0e6790ecea3b16054.jpg" alt="Image 4"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-10-10/80x80_1760092685_443f95a7a8d9406cc23c.jpg" alt="Image 5"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2024-10-09/80x80_1728420735_d0d07730893dfb988aed.jpg" alt="Image 6"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-09-07/80x80_1757265049_7e3f6c1b58472caaef90.jpg" alt="Image 7"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-01-19/80x80_1737286699_84121a149fb68c9be962.jpg" alt="Image 8"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-05-29/80x80_1748521764_c47fed3bcca9f52384ee.jpg" alt="Image 9"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2024-12-02/80x80_1733085075_92d629791a4c49ffe634.jpg" alt="Image 10"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2024-12-07/80x80_1733587819_3f0467cc49ee8073c103.jpg" alt="Image 11"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2024-12-06/80x80_1733509979_55a8349ec146d7ab937f.jpg " alt="Image 12"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-02-03/80x80_1738606112_ca9fa3df905486260cb3.jpg" alt="Image 1"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-02-13/80x80_1739444017_54b96e69e2fde00dbf7f.jpg" alt="Image 2"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-08-06/80x80_1754501233_54b5ff264b54ac2a70a9.jpg" alt="Image 3"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-09-04/80x80_1756956624_ddec4ab151ef3884f187.jpg" alt="Image 4"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-05-24/80x80_1748032393_af1ff01fb1839945d096.jpg" alt="Image 5"></div>
+        <div class="image-item"><img src="https://story.uzmovi.tv/2025-02-13/80x80_1739444130_b776c21c0f5e364df181.jpg" alt="Image 6"></div>
+
+    </div>
+
+</div>
+
+
+    <div class="user-panel">
+        <div class="left-buttons">
+            <button class="ki">Kirish</button>
+            <button>Ro'yxatdan o'tish</button>
+        </div>
+        <div class="right-icons">
+            <button class="asd"><i class="fa-solid fa-user"></i></button>
+            <button><i class="fa-solid fa-film"></i></button>
+            <button><i class="fa-solid fa-envelope"></i></button>
+            <button><i class="fa-solid fa-circle-info"></i></button>
+        </div>
+    </div>
+
+    
+    <div class="search-wrapper">
+        <input type="text" placeholder="Qidirish...">
+        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <br><br>
+
+    <h3 class="PREMYERALAR">| PREMYERALAR</h3>
+    <br>
+    <div class="container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.uzmovi.tv/2025-12-01/4361b43821455ee4f56600a5d4377fd8.jpg"
+                        class="d-blocka w-100" alt="Karusel: The Witcher 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.uzmovi.tv/2025-11-30/de8692eb6156f6b5ad2b23dd5379b3c3.jpg"
+                        class="d-block w-100" alt="Karusel: House of the Dragon">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.uzmovi.tv/2025-11-28/0a49e79b362796bb22e9721c794ca1e9.jpg"
+                        class="d-block w-100" alt="Karusel: Loki 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.uzmovi.tv/2025-11-28/7f7db9ae6953095bd966b6de8f1a558a.jpg"
+                        class="d-block w-100" alt="Karusel: Bad Boys">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.uzmovi.tv/2025-11-23/020dc386a2adfbbe45d02848908003db.jpg"
+                        class="d-block w-100" alt="Karusel: Yangi Film">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div id="app" class="container"></div>
+
+   
+    <div class="container new-content-layout">
+        <div class="row">
+          
+            <div class="col-lg-8 col-12 mb-4">
+                <h3 class="section-title">| MULTFILMLAR</h3>
+                <div id="multfilmCarousel" class="carousel slide multfilm-carousel" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+                    <div class="carousel-indicators">
+                       
+                    </div>
+                    <div class="carousel-inner">
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#multfilmCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Oldingi</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#multfilmCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Keyingi</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-4">
+                <h3 class="section-title">| KINO YANGILIKLARI</h3>
+                <div class="news-list">
+   
+                    <div class="news-item">
+                        <img src="https://kinochi.net/uploads/800x450/802cf7956601e4dafab82842f5d2da6f.jpg" alt="News"
+                            class="news-img">
+                        <div class="news-text">
+                            <p class="news-title">Tayyormisan yoki yo'q 2: Men kelyapman filmidan birinchi rasmiy
+                                treyler</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right news-arrow"></i>
+                    </div>
+       
+                    <div class="news-item">
+                        <img src="https://kinochi.net/uploads/800x450/449dac5f5af9c864056c68a454d0c02d.jpg" News"
+                            class="news-img">
+                        <div class="news-text">
+                            <p class="news-title">Yetti Qirollik Ritsari serialidan yangi rasmiy treyler</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right news-arrow"></i>
+                    </div>
+         
+                    <div class="news-item">
+                        <img src="https://kinochi.net/uploads/800x450/957cf40495bdc05c72c11ba7212b45b2.jpg" alt="News"
+                            class="news-img">
+                        <div class="news-text">
+                            <p class="news-title">Skarlett Yoxansson Betmen 2 filmida ishtirok etishi mumkin</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right news-arrow"></i>
+                    </div>
+
+                    <div class="news-item">
+                        <img src="https://kinochi.net/uploads/800x450/7532b26c814b976b1d08a4a9b2f99f0c.jpg" alt="News"
+                            class="news-img">
+                        <div class="news-text">
+                            <p class="news-title">28 - yildan so'ng: Suyak ibodatxonasi filmidan yangi rasmiy treyler
+                            </p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right news-arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <footer style="color: #222933;" class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="logo">
+                    <img style="width: 150px; height: 50px;" src="https://uzmovi.tv/images/logo.gif" alt="Logo"
+                        class="logo">
+                </div>
+                <div class="footer-menu">
+                    <a href="#">Reklama</a>
+                    <a href="#">DMCA</a>
+                    <a href="#">Sayt qoidalari</a>
+                    <a href="#">Qayta aloqa</a>
+                    <a href="#">Yosh talabasi</a>
+                </div>
+                <div class="age-restriction">
+                    <span class="age-limit">18+</span>
+                    
+                    <img class="" src="https://uzmovi.tv/images/hit.gif" alt="">
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© UZMOVi.com — 2019–2025</p>
+                <p>Права на фильмы принадлежат их авторам. Все фильмы представлены только для ознакомления.</p>
+                <p>Администрация не несет ответственности за размещенные пользователями нелегальные материалы. Любой
+                    фильм <a href="#" class="report-link">будет</a> удален по требованию правообладателя.</p>
+            </div>
+        </div>
+
+
+        <span class="arrow-up"></span>
+        </button>
+        
+            <svg viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                <path
+                    d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.64 8.74l-2.88 12.6c-.19.8-.62.98-1.32.58l-4.14-3.05-2.02 1.95c-.22.21-.4.4-.84.25L4.4 12.44l15.1-5.63c.67-.25 1.15.22.68.75z" />
+            </svg>
+        </a>
+    </footer>
+
+
+    <script src="db.js"></script>
+    
+
+  <script>
+
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof db === 'undefined') {
+        console.error("db.js yuklanmadi!");
+        return;
+    }
+
+    const app = document.getElementById("app");
+    const multfilmNewsSection = document.querySelector('.new-content-layout'); // Multfilm + Yangiliklar
+
+
+    const navLinks = document.querySelectorAll('.nav-link[data-section], .dropdown-item[data-section]');
+
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const section = this.getAttribute('data-section');
+
+           
+            document.querySelectorAll('.nav-link, .dropdown-item').forEach(el => {
+                el.classList.remove('active');
+            });
+            this.classList.add('active');
+
+            // Kontentni ko'rsatish/yashirish
+            if (section === 'home') {
+                showAllSections();
+            } else if (section === 'tarjima') {
+                showOnly(['tarjima']);
+            } else if (section === 'hind') {
+                showOnly(['hind']);
+            } else if (section === 'serial') {
+                showOnly(['serial']);
+            } else if (section === 'news') {
+                showOnly([], true); 
+            }
+        });
+    });
+
+    
+    showAllSections();
+    document.querySelector('[data-section="home"]').classList.add('active');
+
+
+
+    function clearContent() {
+        app.innerHTML = '';
+        multfilmNewsSection.style.display = 'none';
+    }
+
+    function showAllSections() {
+        clearContent();
+        createSection("Tarjima Kinolar", db.tarjima, "tarjima");
+        createSection("Seriallar", db.serial, "serial");
+        createSection("Hind Kinolari", db.hind, "hind");
+        multfilmNewsSection.style.display = 'block';
+    }
+
+    function showOnly(categories = [], onlyNews = false) {
+        clearContent();
+
+        if (onlyNews) {
+           
+            multfilmNewsSection.style.display = 'block';
+            return;
+        }
+
+        categories.forEach(cat => {
+            if (cat === 'tarjima' && db.tarjima) createSection("Tarjima Kinolar", db.tarjima, "tarjima");
+            if (cat === 'hind' && db.hind) createSection("Hind Kinolari", db.hind, "hind");
+            if (cat === 'serial' && db.serial) createSection("Seriallar", db.serial, "serial");
+        });
+
+       
+        multfilmNewsSection.style.display = categories.length > 0 ? 'none' : 'block';
+    }
+
+    function createSection(title, arr, id) {
+        if (!arr || arr.length === 0) return;
+
+        const h3 = document.createElement("h3");
+        h3.className = "section-title";
+        h3.innerHTML = "| " + title;
+        app.appendChild(h3);
+
+        const row = document.createElement("div");
+        row.className = "row g-4 mb-5";
+
+        arr.forEach(movie => {
+            const col = document.createElement("div");
+            col.className = "col-6 col-md-4 col-lg-3";
+            col.innerHTML = `
+                <div class="movie-card">
+                    <img src="${movie.img}" class="movie-img" alt="${movie.title}">
+                    <div class="movie-title-container">
+                        <p class="movie-title">${movie.title}</p>
+                    </div>
+                </div>
+            `;
+            row.appendChild(col);
+        });
+
+        app.appendChild(row);
+    }
+
+    createMultfilmCarousel();
+});
+
+
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.main-nav');
+    if (window.scrollY > 100) {
+        navbar.style.backgroundColor = '#1a1f27';
+        navbar.style.boxShadow = '0 4px 15px rgba(0,0,0,0.6)';
+    } else {
+        navbar.style.backgroundColor = '#222933';
+        navbar.style.boxShadow = 'none';
+    }
+});
+</script>
+</body>
+
+</html>
